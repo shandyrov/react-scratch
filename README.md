@@ -1,4 +1,4 @@
-## React App Skeleton
+# React Scratch
 
 ## App Dev Dependencies:
 
