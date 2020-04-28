@@ -1,10 +1,23 @@
-# React Scratch
+# React From Scratch
 
-## App Dev Dependencies:
+React From Scratch - Universal React boilerplate that uses Webpack and Babel.
 
-* [Babel](https://babeljs.io)
-* [Webpack](http://webpack.github.io)
-* [React](https://reactjs.org)
+## Webpack
+
+* [Style Loader](https://www.npmjs.com/package/style-loader)
+* [Css Loader](https://www.npmjs.com/package/css-loader)
+* [File Loader](https://www.npmjs.com/package/file-loader)
+* [HTML Webpack Plugin](https://www.npmjs.com/package/html-webpack-plugin)
+* [Mini CSS Extract Plugin](https://www.npmjs.com/package/mini-css-extract-plugin)
+* [Webpack Merge](https://www.npmjs.com/package/webpack-merge)
+* [Optimize CSS Assets Webpack Plugin](https://www.npmjs.com/package/optimize-css-assets-webpack-plugin)
+
+## Babel
+
+* [Babel Core](https://www.npmjs.com/package/@babel/core)
+* [Babel Loader](https://www.npmjs.com/package/babel-loader)
+* [Babel Preset Env](https://www.npmjs.com/package/@babel/preset-env)
+* [Babel Preset React](https://www.npmjs.com/package/@babel/preset-react)
 
 ## Project Structure
 * ```package.json``` - Configure dependencies
@@ -22,11 +35,17 @@ npm install
 ```
 
 ## Development
+
+Runs the app in development mode. Open http://localhost:9000 to view it in the browser.
+
 ```js
 npm run dev
 ```
 
 ## Build
+
+Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+
 ```js
 npm run build
 ```

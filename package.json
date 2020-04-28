@@ -1,7 +1,7 @@
 {
-  "name": "react-app-skeleton",
+  "name": "react-from-scratch",
   "version": "0.1.0",
-  "description": "React App Skeleton (React, Babel, ES6, Webpack)",
+  "description": "React From Scratch (React, Babel, Webpack)",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --config webpack.dev.config.js",
